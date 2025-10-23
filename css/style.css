@@ -1,0 +1,121 @@
+:root {
+  --terracotta: #e07a5f;
+  --cream: #fff8f3;
+  --dark: #3d3d3d;
+  --light: #fefcfb;
+  --accent: #d97757;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page-container {
+  min-height: 100hv;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex-grow: 1;
+  padding: 20px;
+}
+/* لوگو */
+.logo-text {
+  color: var(--terracotta);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* 🌐 Navbar */
+.navbar {
+  background-color: var(--light) !important;
+}
+.nav-link {
+  color: var(--dark);
+  transition: color 0.3s;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--terracotta);
+}
+
+/* 🔍 Search box */
+.search-box input {
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-box i {
+  color: var(--terracotta);
+}
+
+/* 🛒 Buttons */
+.btn-buy {
+  background-color: var(--terracotta);
+  color: white;
+  border: none;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.btn-buy:hover {
+  background-color: var(--accent);
+  transform: scale(1.03);
+}
+
+/* 🛍️ Product cards */
+.product-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.product-img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* 🧾 Cart styles */
+.cart-item {
+  background-color: var(--cream);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.cart-item img {
+  width: 90px;
+  border-radius: 8px;
+}
+.card-title {
+  color: var(--terracotta);
+  font-weight: 600;
+}
+.card-text.fw-bold {
+  color: #a63e2f;
+}
+
+/* 🧡 Footer */
+footer {
+  background-color: var(--terracotta);
+  color: white;
+  margin-top: 60px;
+  padding: 10px 0;
+}
+footer a:hover {
+  color: #ffd9c4;
+}
+
+/* 📱 واکنش‌گرا */
+@media (max-width: 768px) {
+  .product-img {
+    height: 200px;
+  }
+  .search-box input {
+    width: 120px;
+  }
+}

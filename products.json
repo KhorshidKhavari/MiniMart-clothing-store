@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Brown Autumn Jacket",
+    "price": 49.99,
+    "description": "A cozy brown jacket perfect for cool autumn days.",
+    "image": "images/jacket1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Beige Sweater",
+    "price": 35.50,
+    "description": "Soft beige sweater made from warm cotton blend.",
+    "image": "images/sweater1.webp"
+  },
+  {
+    "id": 3,
+    "name": "Leather Boots",
+    "price": 59.99,
+    "description": "Stylish leather boots with a soft inner lining for comfort.",
+    "image": "images/boots1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Scarf & Hat Set",
+    "price": 24.00,
+    "description": "Matching scarf and hat set in warm earthy tones.",
+    "image": "images/scarf1.webp"
+  },
+  {
+    "id": 5,
+    "name": "Corduroy Pants",
+    "price": 44.90,
+    "description": "Classic brown corduroy pants — perfect for everyday wear.",
+    "image": "images/pants1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Plaid Shirt",
+    "price": 29.99,
+    "description": "Casual plaid shirt inspired by autumn colors.",
+    "image": "images/shirt1.jpg"
+  }
+]
